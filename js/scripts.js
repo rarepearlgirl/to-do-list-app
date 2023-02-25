@@ -13,10 +13,11 @@ function newItem() {
   }
 
   //2. Crossing out an item from the list of items:
+  $("li").off("click");
   $("li").on("dblclick", function (crossOut) {
     li.toggleClass("strike");
   });
-  $("li").off("click");
+  
 
 
 
