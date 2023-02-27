@@ -8,7 +8,6 @@ function newItem() {
   if (inputValue === '') {
     alert("Write something!");
   } else {
-    let list = $('#list');
     $('#list').append(li);
   }
 
